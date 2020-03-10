@@ -1,0 +1,15 @@
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8764
+spring:
+  application:
+    name: service-ribbon
+#turbine:
+#  app-config: SERVICE-HI #监控的服务
+#  cluster-name-expression: "'default'" #集群名称，默认default
+#  instanceUrlSuffix: hystrix.stream
+#  combine-host-port: true
