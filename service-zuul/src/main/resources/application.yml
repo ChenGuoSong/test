@@ -14,6 +14,9 @@ zuul:
       path: /api-a/** #以/api-a/开头的请求都交给service-ribbon服务
       serviceId: service-ribbon
     api-b:
-      path: /api-b/** #以/api-a/开头的请求都交给service-feign服务
+      path: /api-b/** #以/api-b/开头的请求都交给service-feign服务
+      serviceId: service-feign
+    api-c:
+      path: /api-c/**
       serviceId: service-feign
 
