@@ -11,6 +11,15 @@
     <groupId>com.cgs.example</groupId>
     <artifactId>test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>config-server</module>
+        <module>config-client</module>
+        <module>eureka-server</module>
+        <module>service-feign</module>
+        <module>service-hi</module>
+        <module>service-ribbon</module>
+        <module>service-zuul</module>
+    </modules>
     <name>spring-cloud-eureka</name>
     <description>Demo project for Spring Boot</description>
 
